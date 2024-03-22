@@ -57,8 +57,8 @@ interface Employee extends Developer, Person {
 }
 
 /* difference between 'interface' and 'type'
-- RE-DECLARATION of 'interface' performs a union operation 
-while with 'type' its not allowed
+- RE-OPENING of 'interface' performs an union operation 
+with its previous definition while with 'type' its not allowed
 
-- TO EXTEND 'interface' we use 'extends' keyword 
+- INHERITANCE: for 'interface' we use 'extends' keyword 
 while with 'type' we use '&' keyword */

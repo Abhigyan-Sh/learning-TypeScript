@@ -1,4 +1,10 @@
 ## TypeScript
+
+### How to Follow
+- fundamentals
+- live-server
+- classes
+
 ### Before you even start
 - After the global install, you can use TS as it gives you `tsc` command to compile or transpile your code into JS, now if I write tsc filename.ts, then it compiles my TS code into JS
 - what all you can expect with TS, or where and what you need to define (like custom dataTypes and built-in ones)
@@ -21,4 +27,3 @@
 - tsc -w (with this 
   - it detects for live changes and 
   - also the index.js file gets created in the dist folder as defined by the tsconfig.json)
-- 
