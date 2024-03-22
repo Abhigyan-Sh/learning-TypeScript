@@ -13,3 +13,12 @@
 ### 
 - `any` (for getting away of defining 'type' for a particular variable, its not a type rather a flag for turning off type checking for a particular variable)
 - `noImplicitAny` (for defining that `any` shouldn't be placed in a file)
+
+### live-server folder
+- tsc --init (-- means options)
+- define output directory in tsconfig.json
+- but is index.html reading it up from the dist ? make it read from dist now.
+- tsc -w (with this 
+  - it detects for live changes and 
+  - also the index.js file gets created in the dist folder as defined by the tsconfig.json)
+- 
